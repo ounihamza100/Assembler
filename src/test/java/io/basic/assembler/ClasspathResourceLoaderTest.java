@@ -1,9 +1,8 @@
 package io.basic.assembler;
 
-import io.basic.assembler.scan.ClassPathResourceLoader;
-import io.basic.assembler.scan.DefaultClassPathResourceLoader;
+import io.basic.assembler.scan.loader.ClassPathResourceLoader;
+import io.basic.assembler.scan.loader.DefaultClassPathResourceLoader;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.io.BufferedReader;

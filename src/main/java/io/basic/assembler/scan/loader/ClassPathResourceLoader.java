@@ -1,4 +1,4 @@
-package io.basic.assembler.scan;
+package io.basic.assembler.scan.loader;
 
 /**
  * Abstraction to load resources from the the classpath.

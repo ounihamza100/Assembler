@@ -1,4 +1,4 @@
-package io.basic.assembler.scan;
+package io.basic.assembler.scan.loader;
 
 import java.io.InputStream;
 import java.net.URL;

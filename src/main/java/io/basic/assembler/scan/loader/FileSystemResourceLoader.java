@@ -1,4 +1,4 @@
-package io.basic.assembler.scan;
+package io.basic.assembler.scan.loader;
 
 /**
  * Abstraction to load resources from the file system.
@@ -6,6 +6,14 @@ package io.basic.assembler.scan;
  * @author Hamza Ouni
  */
 public interface FileSystemResourceLoader extends ResourceLoader {
+    /**
+     * Creation method.
+     * @return loader
+     */
+    static FileSystemResourceLoader defaultLoader() {
+        return new DefaultFileSystemResourceLoader();
+    }
+
     /**
      * Does the loader support a prefix.
      * @param path The path to a resource including a prefix

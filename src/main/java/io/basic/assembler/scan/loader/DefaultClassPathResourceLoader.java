@@ -1,4 +1,4 @@
-package io.basic.assembler.scan;
+package io.basic.assembler.scan.loader;
 
 import io.basic.assembler.scan.util.ConcurrentLinkedHashMap;
 import io.basic.assembler.scan.util.StringUtils;
